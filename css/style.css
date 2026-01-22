@@ -123,26 +123,28 @@ ul {
 /*                             Sidebar Components                             */
 /* -------------------------------------------------------------------------- */
 .profile-card {
-    text-align: left;
+    text-align: center;
+    /* Center everything */
     margin-bottom: 0.5rem;
-    /* Highly compact */
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-image-container {
-    width: 160px;
-    /* Increased from 140px */
-    height: 160px;
-    /* Increased from 140px */
+    width: 260px;
+    height: 260px;
     border-radius: 50%;
     border: 4px solid var(--bg-surface);
     box-shadow: var(--shadow-primary);
-    margin-bottom: 0.75rem;
-    /* Reduced margin to compensate */
+    margin-bottom: 0.5rem;
     overflow: hidden;
     position: relative;
-    margin-top: 0.5rem;
-    /* Reduced top margin */
+    margin-top: 0;
+    align-self: center;
+    /* Ensure centered if flex issues arise */
+}
 }
 
 .profile-image-container img {
