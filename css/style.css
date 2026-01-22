@@ -145,7 +145,6 @@ ul {
     align-self: center;
     /* Ensure centered if flex issues arise */
 }
-}
 
 .profile-image-container img {
     width: 100%;
