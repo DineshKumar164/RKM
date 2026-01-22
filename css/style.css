@@ -130,16 +130,19 @@ ul {
 }
 
 .profile-image-container {
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    /* Increased from 140px */
+    height: 160px;
+    /* Increased from 140px */
     border-radius: 50%;
     border: 4px solid var(--bg-surface);
     box-shadow: var(--shadow-primary);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    /* Reduced margin to compensate */
     overflow: hidden;
     position: relative;
-    margin-top: 1rem;
-    /* Add slight top margin for balance */
+    margin-top: 0.5rem;
+    /* Reduced top margin */
 }
 
 .profile-image-container img {
